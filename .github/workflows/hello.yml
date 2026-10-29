@@ -9,12 +9,11 @@ on:
 jobs:
   saudacao: # nome da tarefa
     runs-on: ubuntu-latest # onde deve ser executada
-    stpes:
+    steps:
     - name: Primeiro contato
-
-    run: echo "olá mundo cruel"
+      run: echo "olá mundo cruel"
     - name: Primeiro contato
-    run: echo "olá mundo "
+      run: echo "olá mundo "
     - name: Resposta
-    run: echo " A extinção esta chegando"
+      run: echo " A extinção esta chegando"
   

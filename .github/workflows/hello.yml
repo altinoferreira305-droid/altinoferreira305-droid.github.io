@@ -1,0 +1,20 @@
+name: olá mundo cruel # nome da action
+
+# Gatilho, quando a sctionvai rodar
+on: 
+  push:
+    branches: ['main']
+
+# Criar as tarefas que deven ser  executadas
+jobs:
+  saudacao: # nome da tarefa
+    runs-on: ubuntu-latest # onde deve ser executada
+    stpes:
+    - name: Primeiro contato
+
+    run: echo "olá mundo cruel"
+    - name: Primeiro contato
+    run: echo "olá mundo "
+    - name: Resposta
+    run: echo " A extinção esta chegando"
+  

@@ -25,6 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "o Fim"
-        run: echo "Apos uamtempestade solar, a humanidade virou churrasquinho"
+        run: echo "Apos uma tempestade solar, a humanidade virou churrasquinho"
       - name: "Nova Era"
         run: echo "Uma nova raça animal começa a dominar o planeta"   
